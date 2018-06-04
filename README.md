@@ -1,0 +1,2 @@
+# foxstop
+Foxstop files
