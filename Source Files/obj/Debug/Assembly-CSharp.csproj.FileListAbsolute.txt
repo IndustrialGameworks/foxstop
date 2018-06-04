@@ -1,0 +1,122 @@
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\nunit.framework.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEditor.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEngine.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEngine.TestRunner.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\Mono.Cecil.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\Unity.DataContract.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEngine.xml
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEditor.xml
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEngine.TestRunner.xml
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\nunit.framework.xml
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\obj\Debug\Assembly-CSharp.dll
+C:\Github Projects\Colony-Administrator\Source Code\Foxstop\obj\Debug\Assembly-CSharp.pdb
+E:\Foxstop\obj\Debug\Assembly-CSharp.dll
+E:\Foxstop\obj\Debug\Assembly-CSharp.pdb
+E:\Foxstop\Temp\bin\Debug\Assembly-CSharp.dll
+E:\Foxstop\Temp\bin\Debug\Assembly-CSharp.pdb
+E:\Foxstop\Temp\bin\Debug\nunit.framework.dll
+E:\Foxstop\Temp\bin\Debug\UnityEditor.dll
+E:\Foxstop\Temp\bin\Debug\UnityEngine.Analytics.dll
+E:\Foxstop\Temp\bin\Debug\UnityEngine.dll
+E:\Foxstop\Temp\bin\Debug\UnityEngine.HoloLens.dll
+E:\Foxstop\Temp\bin\Debug\UnityEngine.Networking.dll
+E:\Foxstop\Temp\bin\Debug\UnityEngine.TestRunner.dll
+E:\Foxstop\Temp\bin\Debug\UnityEngine.UI.dll
+E:\Foxstop\Temp\bin\Debug\UnityEngine.VR.dll
+E:\Foxstop\Temp\bin\Debug\Mono.Cecil.dll
+E:\Foxstop\Temp\bin\Debug\Unity.SerializationLogic.dll
+E:\Foxstop\Temp\bin\Debug\Unity.DataContract.dll
+E:\Foxstop\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+E:\Foxstop\Temp\bin\Debug\Unity.UNetWeaver.dll
+E:\Foxstop\Temp\bin\Debug\Unity.CecilTools.dll
+E:\Foxstop\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+E:\Foxstop\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+E:\Foxstop\Temp\bin\Debug\UnityEngine.xml
+E:\Foxstop\Temp\bin\Debug\UnityEditor.xml
+E:\Foxstop\Temp\bin\Debug\UnityEngine.UI.xml
+E:\Foxstop\Temp\bin\Debug\UnityEngine.Networking.xml
+E:\Foxstop\Temp\bin\Debug\UnityEngine.TestRunner.xml
+E:\Foxstop\Temp\bin\Debug\nunit.framework.xml
+E:\Foxstop\Temp\bin\Debug\UnityEngine.Analytics.xml
+E:\Foxstop\Temp\bin\Debug\UnityEngine.HoloLens.xml
+E:\Foxstop\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEngine.TestRunner.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEngine.TestRunner.xml
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\nunit.framework.xml
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Sam\Downloads\Foxstop\Foxstop\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Sam\Downloads\Foxstop\Foxstop\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Downloads\Foxstop\Foxstop\obj\Debug\Assembly-CSharp.dll
+C:\Users\Sam\Downloads\Foxstop\Foxstop\obj\Debug\Assembly-CSharp.pdb
+C:\Github Projects\Foxstop\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Github Projects\Foxstop\Temp\bin\Debug\nunit.framework.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEditor.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEngine.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEngine.TestRunner.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\Mono.Cecil.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\Unity.DataContract.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEngine.xml
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEditor.xml
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEngine.TestRunner.xml
+C:\Github Projects\Foxstop\Temp\bin\Debug\nunit.framework.xml
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Github Projects\Foxstop\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Github Projects\Foxstop\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Github Projects\Foxstop\obj\Debug\Assembly-CSharp.dll
+C:\Github Projects\Foxstop\obj\Debug\Assembly-CSharp.pdb
