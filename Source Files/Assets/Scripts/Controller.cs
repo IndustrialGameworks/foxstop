@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Controller : MonoBehaviour {
 
@@ -20,6 +21,11 @@ public class Controller : MonoBehaviour {
 	public Transform groundedEnd;
 	public bool canJump;
 
+	public Text Score;
+	public Text highScore;
+	public Button exitButton;
+	public Button retryButton;
+
 	// Use this for initialization
 	void Start () {
 		initialValueX = transform.position.x;
@@ -31,6 +37,7 @@ public class Controller : MonoBehaviour {
 			speed = storedSpeed;
 			transform.Translate (Vector2.right * speed * Time.deltaTime);
 		}
+		highScore.text = "HighScore : " + PlayerPrefs.GetFloat("HighScore", 0).ToString() + "m";
 	}
 	
 	// Update is called once per frame
@@ -40,7 +47,7 @@ public class Controller : MonoBehaviour {
 		jumpCheck ();
 
 		DistanceTracking ();
-		OnGUI ();
+		Score.text = "Score : " + log + "m";
 	}
 
 	//Controls fox movement
@@ -79,6 +86,7 @@ public class Controller : MonoBehaviour {
 		if (other.tag == "Deadly" || other.tag == "Wave"){
 			animator.SetBool ("foxDead", true);
 			isDead = true;
+			ShowUI ();
 		}
 	}
 
@@ -88,11 +96,17 @@ public class Controller : MonoBehaviour {
 		distance = distance / 2;
 		distance = Mathf.RoundToInt (distance);
 		log = distance.ToString ();
+
+		if (distance > PlayerPrefs.GetFloat ("HighScore", 0)) 
+		{
+			PlayerPrefs.SetFloat ("HighScore", distance);
+			highScore.text = "HighScore : " + distance.ToString () + "m";
+		}
 	}
 
-	//Outputs the distance travelled to screen
-	void OnGUI () {
-		GUI.Label (new Rect (100, 100, 100, 100),"Distance: " + log + "m");
+	void ShowUI()
+	{
+		exitButton.gameObject.SetActive (true);
+		retryButton.gameObject.SetActive (true);
 	}
-		
 }
