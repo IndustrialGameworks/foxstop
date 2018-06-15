@@ -5,21 +5,15 @@ using UnityEngine.UI;
 
 public class Controller : MonoBehaviour {
 
-	Rigidbody2D fox;
-	Animator animator;
-
 	float initialValueX;
 	public static float distance;
 	string log;
 
-	float speed = 10;
+	public static float speed = 10;
 	float storedSpeed = 10;
-	public float jumpStrength;
+	public static float jumpStrength = 100;
 
 	public static bool isDead;
-
-	public Transform groundedEnd;
-	public bool canJump;
 
 	public Text Score;
 	public Text highScore;
@@ -29,25 +23,19 @@ public class Controller : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		initialValueX = transform.position.x;
-
-		fox = gameObject.GetComponent<Rigidbody2D> ();
-		animator = GetComponent<Animator>();
 		isDead = false;
-		if (Input.GetKey (KeyCode.Space)) {
-			speed = storedSpeed;
-			transform.Translate (Vector2.right * speed * Time.deltaTime);
-		}
 		highScore.text = "HighScore : " + PlayerPrefs.GetFloat("HighScore", 0).ToString() + "m";
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		Movement ();
-		CharacterAnimation ();
-		jumpCheck ();
-
 		DistanceTracking ();
 		Score.text = "Score : " + log + "m";
+
+		if (isDead == true) {
+			ShowUI ();
+		}
 	}
 
 	//Controls fox movement
@@ -56,38 +44,17 @@ public class Controller : MonoBehaviour {
 			return;
 		}
 		else {
-			if (Input.GetKey (KeyCode.Z) && canJump == true) {
+			if (Input.GetKey (KeyCode.Z) && Fox.canJump == true) {
 				speed = 0;
 			}
-			else if (Input.GetKey (KeyCode.X) && canJump == true) {
-				fox.AddForce(Vector2.up * jumpStrength);
-				print ("jump pressed");
+			else if (Input.GetKey (KeyCode.X) && Fox.canJump == true) {
+				Fox.Jumping ();
 			}
 			else {
 				speed = storedSpeed;
-				transform.Translate (Vector2.right * speed * Time.deltaTime);
+				transform.Translate (Vector2.right * speed * Time.deltaTime);  
 			}
         }
-	}
-
-	void jumpCheck () {
-		Debug.DrawLine (this.transform.position, groundedEnd.position, Color.green);
-		canJump = Physics2D.Linecast(this.transform.position, groundedEnd.position, 1 << LayerMask.NameToLayer("Ground"));
-	}
-
-
-	//Connects fox to sprites/animation
-	void CharacterAnimation() {
-		animator.SetFloat ("foxSpeed", speed);
-	}
-
-	//Controls death state
-	void OnTriggerEnter2D (Collider2D other){
-		if (other.tag == "Deadly" || other.tag == "Wave"){
-			animator.SetBool ("foxDead", true);
-			isDead = true;
-			ShowUI ();
-		}
 	}
 
 	//Tracks the distance travelled
