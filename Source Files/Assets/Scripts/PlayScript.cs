@@ -19,4 +19,9 @@ public class PlayScript : MonoBehaviour
 	{
 		SceneManager.LoadScene ("Test");
 	}
+
+	public void menu()
+	{
+		SceneManager.LoadScene ("MainMenu");
+	}
 }

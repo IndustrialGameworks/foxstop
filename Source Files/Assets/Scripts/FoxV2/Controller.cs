@@ -17,8 +17,10 @@ public class Controller : MonoBehaviour {
 
 	public Text Score;
 	public Text highScore;
-	public Button exitButton;
+	public Button menuButton;
 	public Button retryButton;
+	public Button continueButton;
+	public Image menuBackground;
 
 	// Use this for initialization
 	void Start () {
@@ -73,7 +75,9 @@ public class Controller : MonoBehaviour {
 
 	void ShowUI()
 	{
-		exitButton.gameObject.SetActive (true);
+		menuButton.gameObject.SetActive (true);
 		retryButton.gameObject.SetActive (true);
+		continueButton.gameObject.SetActive (true);
+		menuBackground.gameObject.SetActive (true);
 	}
 }
