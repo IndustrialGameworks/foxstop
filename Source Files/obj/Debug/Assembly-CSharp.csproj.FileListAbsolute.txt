@@ -181,3 +181,4 @@ C:\Github Projects\Industrial Gameworks\foxstop\Source Files\Temp\bin\Debug\Unit
 C:\Github Projects\Industrial Gameworks\foxstop\Source Files\Temp\bin\Debug\UnityEngine.VR.xml
 C:\Github Projects\Industrial Gameworks\foxstop\Source Files\obj\Debug\Assembly-CSharp.dll
 C:\Github Projects\Industrial Gameworks\foxstop\Source Files\obj\Debug\Assembly-CSharp.pdb
+C:\Github Projects\Industrial Gameworks\foxstop\Source Files\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache

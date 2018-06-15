@@ -10,7 +10,7 @@ public class Controller : MonoBehaviour {
 	string log;
 
 	public static float speed = 10;
-	float storedSpeed = 10;
+	public static float storedSpeed = 10;
 	public static float jumpStrength = 100;
 
 	public static bool isDead;

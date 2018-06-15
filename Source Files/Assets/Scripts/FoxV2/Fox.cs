@@ -7,6 +7,7 @@ public class Fox : MonoBehaviour {
 	public static Rigidbody2D foxRigid;
 	Animator animator;
 
+	public static float foxLocationX;
 	public Transform groundedEnd;
 	public static bool canJump;
 
@@ -22,6 +23,7 @@ public class Fox : MonoBehaviour {
 		CharacterAnimation ();
 		JumpCheck ();
 
+		foxLocationX = transform.position.x;
 	}
 
 	void JumpCheck () {
