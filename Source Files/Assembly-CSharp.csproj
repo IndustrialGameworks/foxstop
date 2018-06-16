@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\PlayScript.cs" />
      <Compile Include="Assets\Scripts\RestartLevel.cs" />
      <Compile Include="Assets\Scripts\SawBlade.cs" />
+     <Compile Include="Assets\Scripts\UIController.cs" />
      <Compile Include="Assets\Scripts\objectDestroyer.cs" />
      <Compile Include="Assets\Scripts\platformSpawner.cs" />
      <Compile Include="Assets\Scripts\sawSpawner.cs" />
