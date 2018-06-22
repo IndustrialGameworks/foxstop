@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DeathWave.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FoxV2\Controller.cs">
     <Files>
-      <File FileName="Assets\Scripts\FoxV2\Fox.cs" Line="26" Column="39" />
-      <File FileName="Assets\Scripts\DeathWave.cs" Line="30" Column="24" />
-      <File FileName="Assets\Scripts\FoxV2\Controller.cs" Line="13" Column="16" />
+      <File FileName="Assets\Scripts\FoxV2\Fox.cs" Line="35" Column="90" />
+      <File FileName="Assets\Scripts\FoxV2\Controller.cs" Line="14" Column="40" />
+      <File FileName="Assets\Scripts\SawBlade.cs" Line="63" Column="70" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

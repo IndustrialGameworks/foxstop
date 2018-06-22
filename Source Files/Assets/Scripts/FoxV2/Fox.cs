@@ -32,7 +32,8 @@ public class Fox : MonoBehaviour {
 	}
 
 	public static void Jumping () {
-		foxRigid.AddForce (Vector2.up * Controller.jumpStrength);
+		foxRigid.transform.Translate(new Vector2 (0, Controller.jumpStrength * Time.deltaTime));
+		//foxRigid.AddForce (Vector2.up * Controller.jumpStrength);
 		print ("jump pressed");
 	}
 
