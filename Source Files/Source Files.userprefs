@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FoxV2\Controller.cs">
     <Files>
-      <File FileName="Assets\Scripts\FoxV2\Fox.cs" Line="35" Column="90" />
-      <File FileName="Assets\Scripts\FoxV2\Controller.cs" Line="14" Column="40" />
-      <File FileName="Assets\Scripts\SawBlade.cs" Line="63" Column="70" />
+      <File FileName="Assets\Scripts\FoxV2\Fox.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FoxV2\Controller.cs" Line="31" Column="29" />
+      <File FileName="Assets\Scripts\SawBlade.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

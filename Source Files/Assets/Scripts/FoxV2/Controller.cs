@@ -11,7 +11,8 @@ public class Controller : MonoBehaviour {
 
 	public static float speed = 10;
 	public static float storedSpeed = 10;
-	public static float jumpStrength = 350;
+	public static float jumpStrength;
+	public float jumpHeight;
 
 	public static bool isDead;
 
@@ -27,6 +28,7 @@ public class Controller : MonoBehaviour {
 		initialValueX = transform.position.x;
 		isDead = false;
 		highScore.text = "HighScore : " + PlayerPrefs.GetFloat("HighScore", 0).ToString() + "m";
+		jumpStrength = jumpHeight;
 	}
 	
 	// Update is called once per frame
