@@ -12,7 +12,7 @@ public class Controller : MonoBehaviour {
 	public static float speed = 10;
 	public static float storedSpeed = 10;
 	public static float jumpStrength;
-	public float jumpHeight;
+	public float jumpPower;
 
 	public static bool isDead;
 
@@ -28,7 +28,7 @@ public class Controller : MonoBehaviour {
 		initialValueX = transform.position.x;
 		isDead = false;
 		highScore.text = "HighScore : " + PlayerPrefs.GetFloat("HighScore", 0).ToString() + "m";
-		jumpStrength = jumpHeight;
+		jumpStrength = jumpPower;
 	}
 	
 	// Update is called once per frame
@@ -48,12 +48,17 @@ public class Controller : MonoBehaviour {
 			return;
 		}
 		else {
-			if (Input.GetKey (KeyCode.Z) && Fox.canJump == true) {
+			if (Input.GetKey (KeyCode.Z)) {
 				speed = 0;
 			}
-			else if (Input.GetKey (KeyCode.X) && Fox.canJump == true) {
-				Fox.Jumping ();
+			else if (Input.GetKey (KeyCode.X) ) {
+				Fox.isJumping = true;
+				transform.Translate (Vector2.right * (speed*2) * Time.deltaTime);
 			}
+			else if (Input.GetKey (KeyCode.C) ) {
+				transform.Translate (Vector2.right * (speed*2) * Time.deltaTime);
+			}
+
 			else {
 				speed = storedSpeed;
 				transform.Translate (Vector2.right * speed * Time.deltaTime);  

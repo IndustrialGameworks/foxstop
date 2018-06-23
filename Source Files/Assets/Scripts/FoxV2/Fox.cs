@@ -8,8 +8,12 @@ public class Fox : MonoBehaviour {
 	Animator animator;
 
 	public static float foxLocationX;
+	public static float foxLocationY;
 	public Transform groundedEnd;
 	public static bool canJump;
+	public static bool isJumping;
+
+	public static float foxMaxHeight = 5.5f;
 
 	// Use this for initialization
 	void Start () {
@@ -23,7 +27,13 @@ public class Fox : MonoBehaviour {
 		CharacterAnimation ();
 		JumpCheck ();
 
+		//Runs the jump method
+		if (isJumping == true) {
+			Jumping ();
+		}
+
 		foxLocationX = transform.position.x;
+		foxLocationY = transform.position.y;
 	}
 
 	void JumpCheck () {
@@ -32,9 +42,13 @@ public class Fox : MonoBehaviour {
 	}
 
 	public static void Jumping () {
-		foxRigid.transform.Translate(new Vector2 (0, Controller.jumpStrength * Time.deltaTime));
-		//foxRigid.AddForce (Vector2.up * Controller.jumpStrength);
-		print ("jump pressed");
+		if (foxLocationY <= foxMaxHeight) {
+			foxRigid.transform.Translate (new Vector2 (0, Controller.jumpStrength * Time.deltaTime));
+			//foxRigid.AddForce (Vector2.up * Controller.jumpStrength);
+			print ("jump pressed");
+		} else {
+			isJumping = false;
+		}
 	}
 
 	//Controls death state
