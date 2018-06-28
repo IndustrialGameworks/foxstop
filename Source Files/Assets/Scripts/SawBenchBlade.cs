@@ -7,7 +7,7 @@ public class SawBenchBlade : MonoBehaviour {
 	public float minSpeed;
 	public float maxSpeed;
 	float currentSpeed;
-	float distance = 12f;
+	float distance = 5f;
 
 	float posX;
 	float posY;
@@ -16,12 +16,14 @@ public class SawBenchBlade : MonoBehaviour {
 	float furthestRight;
 	float startPosition;
 
-	bool goingUp = coinFlip();
+	bool goingLeft = coinFlip();
 	bool moveY;
+	bool moveYup = false;
 
 	// Use this for initialization
 	void Start () {
 		posX = transform.localPosition.x;
+		posY = transform.localPosition.y;
 
 		furthestRight = transform.localPosition.x;
 		furthestLeft = transform.localPosition.x + distance;
@@ -44,21 +46,31 @@ public class SawBenchBlade : MonoBehaviour {
 	}
 
 	void Movement() {
-		if (moveY == true) {
-			//move Y
+		if (moveY == true && moveYup == false) {
+			transform.Translate (new Vector2 (0,-1.4f)); //moves Y position to make saw run along underside of bench
+			moveYup = !moveYup;
+			moveY = false;
 		}
 
-		if (goingUp == true) {
+		if (moveY == true && moveYup == true) {
+			transform.Translate (new Vector2 (0,+1.4f)); //resets the Y position to original value
+			moveYup = !moveYup;
+			moveY = false;
+		}
+
+		if (goingLeft == true) {
 			if (posX >= furthestLeft) {
-				goingUp = false;
+				goingLeft = false;
+				moveY = true;
 			}
 		} else {
 			if (posX <= furthestRight) {
-				goingUp = true;
+				goingLeft = true;
+				moveY = true;
 			}
 		}
 
-		if (goingUp == true) { 
+		if (goingLeft == true) { 
 			transform.Translate (new Vector2 (currentSpeed * Time.deltaTime,0));
 		} else {
 			transform.Translate (new Vector2 (-currentSpeed * Time.deltaTime,0));
