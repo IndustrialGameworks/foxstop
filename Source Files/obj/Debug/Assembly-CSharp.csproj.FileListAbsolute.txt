@@ -182,3 +182,34 @@ C:\Github Projects\Industrial Gameworks\foxstop\Source Files\Temp\bin\Debug\Unit
 C:\Github Projects\Industrial Gameworks\foxstop\Source Files\obj\Debug\Assembly-CSharp.dll
 C:\Github Projects\Industrial Gameworks\foxstop\Source Files\obj\Debug\Assembly-CSharp.pdb
 C:\Github Projects\Industrial Gameworks\foxstop\Source Files\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Github Projects\foxstop\Source Files\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Github Projects\foxstop\Source Files\obj\Debug\Assembly-CSharp.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\nunit.framework.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEditor.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEngine.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEngine.TestRunner.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\Mono.Cecil.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\Unity.DataContract.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEngine.xml
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEditor.xml
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEngine.TestRunner.xml
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\nunit.framework.xml
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Github Projects\foxstop\Source Files\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Github Projects\foxstop\Source Files\obj\Debug\Assembly-CSharp.pdb
