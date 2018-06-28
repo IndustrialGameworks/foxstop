@@ -47,8 +47,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\DeathWave.cs" />
-     <Compile Include="Assets\Scripts\FoxV2\Controller.cs" />
-     <Compile Include="Assets\Scripts\FoxV2\Fox.cs" />
+     <Compile Include="Assets\Scripts\Fox\Controller.cs" />
+     <Compile Include="Assets\Scripts\Fox\Fox.cs" />
      <Compile Include="Assets\Scripts\ParallaxController.cs" />
      <Compile Include="Assets\Scripts\PlayScript.cs" />
      <Compile Include="Assets\Scripts\RestartLevel.cs" />
